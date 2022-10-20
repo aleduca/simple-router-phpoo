@@ -1,0 +1,17 @@
+{
+    "name": "alexandrexandecar/simple-router-phpoo",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandre Cardoso",
+            "email": "xandecar@hotmail.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.4"
+    }
+}
