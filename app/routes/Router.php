@@ -35,8 +35,7 @@ class Router
     {
         return [
             'get' => [
-                '/' => fn () => self::load('HomeController', 'index'),
-                '/category/:category' => fn () => self::load('CategoryController', 'index'),
+                '/' => fn () => self::load('HomeController', 'index')
             ],
 
             'post' => [
